@@ -1,0 +1,179 @@
+/**  Random Color Generator
+ *  Style Sheet
+ *  @author Allison Yee | Hanna Lee | Christian Le */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Extended base styles (site specific)
+*****************************************************************/
+
+html { 
+    overflow-y: scroll; /* always force a scrollbar in non-IE */
+}
+h1 {
+    color: #fff;
+}
+body {
+    background: #fff;
+}
+
+#colortext {
+    position: fixed;
+    padding-top: 20;
+    right: 35px;
+    bottom: 35px;
+    color: #fff;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    background: #000000;
+    padding: 7px 9px 7px 9px;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+#generate {
+    position: fixed;
+    padding-top: 20;
+    text-align: center;
+    left: 35px;
+    bottom: 35px;
+    color: #fff;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    background: #000000;
+    padding: 7px 11px 7px 11px;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+#wrapper {
+    width: 700px;
+    height: 625px;
+    margin: auto;
+}
+
+#box1 {
+    background: #49e3a3;
+    width: 170px;
+    height: 200px;
+    display: inline-block;
+    float: left;
+}
+
+#box2 {
+    background: #00a86d;
+    width: 170px;
+    height: 300px;
+    float: left;
+    display: inline-block;
+}
+
+#box3 {
+    background: #00bf82;
+    width: 360px;
+    height: 140px;
+    float: right;
+    display: inline-block;
+}
+
+#box4 {
+    background: #00955c;
+    width: 180px;
+    height: 160px;
+    float: left;
+    display: inline-block;
+}
+
+#box5 {
+    background: #72ffc4;
+    width: 180px;
+    height: 160px;
+    float: right;
+    display: inline-block;
+}
+
+#box6 {
+    background: #009c63;
+    width: 170px;
+    height: 300px;
+    float: left;
+    display: inline-block;
+    clear: both;
+    margin-top: -100px; 
+}
+
+#box7 {
+    background: #00602d;
+    width: 350px;
+    height: 200px;
+    float: left;
+    display: inline-block;
+}
+
+#box8 {
+    background: #35d496;
+    width: 180px;
+    height: 200px;
+    float: right;
+    display: inline-block;
+}
+
+#boxorig {
+    background: #fff;
+    width: 700px;
+    height: 125px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
