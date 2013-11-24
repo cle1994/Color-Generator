@@ -102,7 +102,6 @@ body {
     background: #49e3a3;
     width: 170px;
     height: 200px;
-    display: inline-block;
     float: left;
 }
 
@@ -111,15 +110,13 @@ body {
     width: 170px;
     height: 300px;
     float: left;
-    display: inline-block;
 }
 
 #box3 {
     background: #00bf82;
     width: 360px;
     height: 140px;
-    float: right;
-    display: inline-block;
+    float: left;
 }
 
 #box4 {
@@ -127,7 +124,6 @@ body {
     width: 180px;
     height: 160px;
     float: left;
-    display: inline-block;
 }
 
 #box5 {
@@ -135,7 +131,6 @@ body {
     width: 180px;
     height: 160px;
     float: right;
-    display: inline-block;
 }
 
 #box6 {
@@ -143,8 +138,6 @@ body {
     width: 170px;
     height: 300px;
     float: left;
-    display: inline-block;
-    clear: both;
     margin-top: -100px; 
 }
 
@@ -153,7 +146,6 @@ body {
     width: 350px;
     height: 200px;
     float: left;
-    display: inline-block;
 }
 
 #box8 {
@@ -161,7 +153,6 @@ body {
     width: 180px;
     height: 200px;
     float: right;
-    display: inline-block;
 }
 
 #boxorig {
